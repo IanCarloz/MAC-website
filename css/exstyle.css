@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+#grad1 {
+  height: 100vh;
+  background: linear-gradient(135deg, #0fb8ad, #1fc8db, #2cb5e8);
+  text-align: center;
+}
+
+#first_title {
+  font-size: 7vh;
+  color: white;
+}
+
+#second_title {
+  font-size: 4vh;
+  color: black;
+}
+
+#second_title-box {
+  padding: 35px;
+  margin: 10px;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100vh;
+    width: 25%;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the content */
+.content {
+  width: 70%;
+  float: right;
+}
