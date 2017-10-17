@@ -1,19 +1,35 @@
 body {
-    background-color: LIGHTSTEELBLUE;
+    background-color: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     font-family: 'Droid Sans Mono', monospace;
     margin: 0;
 }
 h1 {
+  color: white;
+  background-color: black;
+    font-size: 47px;
+        /*padding: 5px;*/
     text-align: center;
     /*font-family: 'Raleway', sans-serif;*/
 }
+#grad {
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+#grad1 {
+  margin-top: 0;
+    height: 750px;
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, LIGHTSTEELBLUE); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, LIGHTSTEELBLUE); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, LIGHTSTEELBLUE); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, LIGHTSTEELBLUE); /* Standard syntax (must be last) */
+}
 .btitle {
-    color: white;
-    background-color: black;
-    padding: 5px;
+    /*color: white;
+    background-color: black;*/
+      /*padding: 5px;*/
     /*margin: 10px;*/
 }
-.mac {
+/*.mac {
   background-color: black;
   color: white;
   position: fixed;
@@ -88,4 +104,4 @@ div.content {
         text-align: center;
         float: none;
     }
-}
+}*/
